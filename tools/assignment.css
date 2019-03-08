@@ -1,0 +1,264 @@
+
+/*decorating header*/
+header{
+    background:midnightblue; 
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-bottom: 25px; 
+
+}
+body{
+  background: rgb(230, 222, 222);
+	font-size: 120%;
+
+}
+
+#home{
+
+  float: left;
+}
+
+.home-items{
+    
+    color: #f2f2f2;
+    text-align: left;
+    padding: 2%;
+    padding-bottom: 2%;
+    
+   
+}
+
+/*decorating link*/
+a{
+    color: #f2f2f2;
+    text-decoration: #f2f2f2;
+}
+
+/*positioning form*/
+.form-wrapper{
+    
+    float: right;
+}
+/*positioning sign up button*/
+.signup{
+    float:right;
+    
+}
+
+
+/*styling input boxes*/
+  form input{
+    width: 25%;
+  height: 3%;  
+  padding: 1%;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 20px;
+  }
+
+  /*styling buttons*/
+
+ .form-wrapper button{
+    background: green;
+    color: white;
+    padding: 2px;
+ }
+
+ h4{
+   text-align:center; 
+   color: blue;
+ }
+
+ /*In below codes i want to make more responsiveness when the screen is 
+ adjusted to mobile phone of width below 320px*/
+ @media screen and (max-width:850px) {
+   /*positioning form*/
+   /*decorating header*/
+header{
+  background:midnightblue; 
+  overflow: hidden;
+  box-sizing: border-box; 
+  height: 60px;
+
+}
+.form-wrapper{
+  position: absolute;
+    padding-bottom: 25px;
+    padding-left: 90px;
+  float: center;
+}
+/*positioning sign up button*/
+.signup{
+  float:right;
+  
+}
+
+  h4 {
+    
+    color: blue;
+  }
+  img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+  form input{
+    width:30%;
+  height: 2%;  
+  padding: 3%;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 10px;
+  }
+
+  /*styling buttons*/
+
+ .form-wrapper button{
+   
+  
+    background: green;
+    color: white;
+    padding: 3px;
+    top: 15px;
+ }
+ home-items a{
+    
+    padding: 4px;
+    text-align: center;
+ }
+ 
+ li{
+   color: blue;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+/*From this part am positioning list of links*/
+ #nav{
+ position: absolute;
+ top: 18px;
+  left: 30px;
+  font-size: 15px;
+  text-align: center;
+
+ }
+ #nav1{
+  position: absolute;
+  top: 18px;
+  left: 130px;
+   font-size: 15px;
+   text-align: center;
+ 
+  }
+  #nav2{
+    position: absolute;
+    top: 18px;
+    left: 230px;
+     font-size: 15px;
+     text-align: center;
+   
+    }
+    /*From this part am positioning logging and sign in button*/
+
+    #log{
+      position: absolute;
+      top: 30px;
+      left: 165px;
+       font-size: 8px;
+       text-align: center;
+      width: 50px;
+      }
+      #sign{
+        position: absolute;
+        top: 30px;
+        left: 230px;
+         font-size: 8px;
+         text-align: center;
+         width: 50px;
+       
+        }
+
+
+        /*From this part am positioning input fields*/
+        #user{
+          position: absolute;
+          top: 28px;
+          left: 10px;
+           font-size: 8px;
+           text-align: center;
+           padding: 10px;
+            width: 80%;
+            height: 10%;
+         
+          }
+
+          #pass{
+            position: absolute;
+            top: 28px;
+            left: 86px;
+            font-size: 8px;
+            text-align: center;
+            padding: 10px;
+            width: 80%;
+            height: 10%;
+           
+            }
+        
+       .box {
+        align-content: center;
+        display: inline-block;
+        width: 80%;
+        height: 150px;
+        margin: 10px;
+        border: 3px solid #73AD21;  
+    } 
+    .box ol{
+      text-align: center;
+    } 
+
+    .box {
+      text-align: center;
+      display: inline-block;
+      width: 90%;
+      height: 210px;
+      margin: 10px;
+      border: 2px solid #73AD21;  
+  }
+
+  .lean{
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 1px;
+    color: white;
+    background: green;
+    width: 20%;
+    margin-left: 38%;
+    font-size: 13px;
+}
+
+    .footer{
+      background-attachment: fixed;
+      background-color: rgb(182, 182, 206);
+      padding: 50px;
+      display: block;
+      margin: auto;
+      
+      border-radius: 15px;
+      color: black;
+      font-size: 25px;
+  }
+
+  hr{
+    width: 60%;
+  }
+}
+
+
+
+
+  
+  
+
+
+

@@ -1,0 +1,163 @@
+@media screen and (width:425px) {
+
+
+    body{
+        background: rgb(230, 222, 222);
+    }
+    
+/*decorating header*/
+
+#nav{
+    position: relative;
+    font-size: 22px;
+    left: 5%;
+    top: 0.1px;
+}
+
+#nav1 a{
+    font-size: 22px;
+    position: relative;
+    left: 70%;
+    top: 0.1px;
+}
+
+#nav2 a{
+    font-size: 22px;
+    position: relative;
+    left: 120%;
+    top: 0.1px;
+}
+
+/*positioning form elements*/
+#sign{
+    position: absolute;
+    top: 4px;
+    left: 350%;
+  
+  }
+  
+  #log{
+    position: absolute;
+    top: 4px;
+    left: 240%;
+  
+  }
+  
+  #pass{
+    position: absolute;
+    top: 3px;
+    left: 120%;
+  
+  }
+  
+  #user{
+    position: absolute;
+    top: 3px;
+    left: 20%;
+  
+  }
+
+ /* positioning the first section*/
+ section ul{
+   
+  position: relative;
+  left: 12%;
+  
+  
+}
+section h3{
+   
+  position: relative;
+  left: 10%;
+  
+  
+}
+}
+/*Responsive for For iphone X*/
+@media screen and (width:375px) {
+  section h3{
+   
+    position: relative;
+    left: 15%;
+    
+    
+  }
+}
+/*Responsive for iphone 6, 7 and 8*/
+@media screen and (width:414px) {
+  section h3{
+   
+    position: relative;
+    left: 10%;
+    
+    
+  }
+  section ul{
+   
+    position: relative;
+    left: 10%;
+    
+    
+  }
+
+  
+/*positioning form elements*/
+#sign{
+  position: absolute;
+  top: 7px;
+  left: 350%;
+
+}
+
+#log{
+  position: absolute;
+  top: 7px;
+  left: 250%;
+
+}
+
+#pass{
+  position: absolute;
+  top: 7px;
+  left: 140%;
+
+}
+
+#user{
+  position: absolute;
+  top: 7px;
+  left: 20%;
+
+}
+#nav{
+  position: relative;
+  font-size: 18px;
+  left: 5%;
+  top: 0.1px;
+}
+
+#nav1 a{
+  font-size: 18px;
+  position: relative;
+  left: 90%;
+  top: 0.1px;
+}
+
+#nav2 a{
+  font-size: 18px;
+  position: relative;
+  left: 150%;
+  top: 0.1px;
+}
+
+/*styling the box of content*/
+
+.box {
+  align-content: center;
+  display: inline-block;
+  width: 95%;
+  height: 200px;
+  margin: 10px;
+  border: 3px solid #73AD21;  
+}
+}
